@@ -7,7 +7,7 @@ Convention:  `.anything.hogan`
 ## Install
 
 ```
-npm install --save docpad-plugin-handlebars
+npm install --save docpad-plugin-hogan
 ```
 
 
