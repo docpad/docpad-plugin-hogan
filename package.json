@@ -29,8 +29,7 @@
     "url": "http://github.com/bevry/docpad-extras.git"
   },
   "engines": {
-    "node": ">=0.4",
-    "docpad": "6.x"
+    "node": ">=0.4"
   },
   "dependencies": {
     "hogan.js": "~2.0.0"
