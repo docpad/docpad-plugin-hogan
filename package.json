@@ -1,45 +1,48 @@
 {
-	"name": "docpad-plugin-hogan",
-	"version": "2.0.2",
-	"description": "Adds support for the Hogan templating engine to DocPad.",
-	"homepage": "http://docpad.org/plugin/hogan",
-	"keywords": [
-		"docpad",
-		"docpad-plugin",
-		"hogan",
-		"hogan.js",
-		"moustache",
-		"templating",
-		"templates",
-		"render",
-		"rendering"
-	],
-	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
-	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"bugs": {
-		"url": "https://github.com/bevry/docpad-extras/issues"
-	},
-	"repository" : {
-		"type": "git",
-		"url": "http://github.com/bevry/docpad-extras.git"
-	},
-	"engines" : {
-		"node": ">=0.4",
-		"docpad": "6.x"
-	},
-	"dependencies": {
-		"hogan.js": "~2.0.0"
-	},
-	"devDependencies": {
-		"coffee-script": "~1.4.0"
-	},
-	"main": "./out/hogan.plugin.js",
-	"scripts": {
-		"test": "node ./out/hogan.test.js"
-	}
+  "name": "docpad-plugin-hogan",
+  "version": "2.0.2",
+  "description": "Adds support for the Hogan templating engine to DocPad.",
+  "homepage": "http://docpad.org/plugin/hogan",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "hogan",
+    "hogan.js",
+    "moustache",
+    "templating",
+    "templates",
+    "render",
+    "rendering"
+  ],
+  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "bugs": {
+    "url": "https://github.com/bevry/docpad-extras/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bevry/docpad-extras.git"
+  },
+  "engines": {
+    "node": ">=0.4",
+    "docpad": "6.x"
+  },
+  "dependencies": {
+    "hogan.js": "~2.0.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.4.0"
+  },
+  "main": "./out/hogan.plugin.js",
+  "scripts": {
+    "test": "node ./out/hogan.test.js"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  }
 }
