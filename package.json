@@ -22,11 +22,11 @@
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
   "bugs": {
-    "url": "https://github.com/bevry/docpad-extras/issues"
+    "url": "https://github.com/docpad/docpad-plugin-hogan/issues"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/bevry/docpad-extras.git"
+    "url": "https://github.com/docpad/docpad-plugin-hogan.git"
   },
   "engines": {
     "node": ">=0.4"
@@ -35,7 +35,9 @@
     "hogan.js": "~2.0.0"
   },
   "devDependencies": {
-    "coffee-script": "~1.4.0"
+    "coffee-script": "~1.6.3",
+    "docpad": "6",
+    "projectz": "~0.3.9"
   },
   "main": "./out/hogan.plugin.js",
   "scripts": {
@@ -43,5 +45,18 @@
   },
   "peerDependencies": {
     "docpad": "6"
+  },
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "david": true,
+    "daviddev": true,
+    "gittip": "docpad",
+    "flattr": "344188/balupton-on-Flattr",
+    "paypal": "QB8GQPZAH84N6",
+    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a"
+  },
+  "license": {
+    "type": "MIT"
   }
 }
