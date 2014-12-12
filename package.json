@@ -35,7 +35,7 @@
     "hogan.js": "~2.0.0"
   },
   "devDependencies": {
-    "coffee-script": "~1.6.3",
+    "coffee-script": "~1.8.0",
     "docpad": "6",
     "projectz": "~0.3.17"
   },
