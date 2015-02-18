@@ -1,4 +1,4 @@
-# Hogan Plugin for DocPad
+# Hogan Plugin for [DocPad](http://docpad.org)
 
 <!-- BADGES/ -->
 
