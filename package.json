@@ -1,7 +1,7 @@
 {
   "title": "Hogan Plugin for DocPad",
   "name": "docpad-plugin-hogan",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Adds support for the Hogan templating engine to DocPad.",
   "homepage": "https://github.com/docpad/docpad-plugin-hogan",
   "license": "MIT",
@@ -86,7 +86,7 @@
   ],
   "main": "es5/hogan.plugin.js",
   "dependencies": {
-    "hogan.js": "~2.0.0"
+    "hogan.js": "^3.0.2"
   },
   "devDependencies": {
     "coffee-script": "^1.12.5",

@@ -16,7 +16,10 @@ module.exports = (BasePlugin) ->
 				hogan = require('hogan.js')
 
 				# Render
-				opts.content = hogan.compile(opts.content).render(templateData)
+				try
+					opts.content = hogan.compile(opts.content).render(templateData)
+				catch err
+					return next(err)
 
 			# Done, return back to DocPad
 			return next()

@@ -1,5 +1,8 @@
 # History
 
+## v2.2.0 April 18
+- Updated dependencies
+
 ## v2.1.0 April 18
 - Updated base files
 
