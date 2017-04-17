@@ -1,4 +1,9 @@
-# Hogan Plugin for [DocPad](http://docpad.org)
+<!-- TITLE/ -->
+
+<h1>Hogan Plugin for DocPad</h1>
+
+<!-- /TITLE -->
+
 
 <!-- BADGES/ -->
 
@@ -26,11 +31,13 @@ Adds support for the [Hogan](http://twitter.github.com/hogan.js/) templating eng
 Convention:  `.anything.hogan`
 
 
-## Install
+<!-- INSTALL/ -->
 
-``` bash
-docpad install hogan
-```
+<h2>Install</h2>
+
+Install this DocPad plugin by entering <code>docpad install hogan</code> into your terminal.
+
+<!-- /INSTALL -->
 
 
 <!-- HISTORY/ -->

@@ -1,4 +1,5 @@
 {
+  "title": "Hogan Plugin for DocPad",
   "name": "docpad-plugin-hogan",
   "version": "2.0.2",
   "description": "Adds support for the Hogan templating engine to DocPad.",
