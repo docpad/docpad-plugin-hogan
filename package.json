@@ -1,7 +1,7 @@
 {
   "title": "Hogan Plugin for DocPad",
   "name": "docpad-plugin-hogan",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Adds support for the Hogan templating engine to DocPad.",
   "homepage": "https://github.com/docpad/docpad-plugin-hogan",
   "license": "MIT",
