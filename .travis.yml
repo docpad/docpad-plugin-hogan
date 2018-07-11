@@ -6,22 +6,24 @@ node_js:
 - '0.12'
 - '4'
 - '6'
-- '7'
+- '8'
+- '10'
 matrix:
   fast_finish: true
+  allow_failures: []
 cache:
   directories:
   - "$HOME/.npm"
   - "$HOME/.yarn-cache"
 install:
-- eval "$(curl -s https://raw.githubusercontent.com/balupton/awesome-travis/master/scripts/node-install.bash)"
+- eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/1ec050bc004d0e2161cb5286c247850d24aecc02/scripts/node-install.bash)"
 before_script:
-- eval "$(curl -s https://raw.githubusercontent.com/balupton/awesome-travis/master/scripts/node-verify.bash)"
+- eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/1ec050bc004d0e2161cb5286c247850d24aecc02/scripts/node-verify.bash)"
 after_success:
-- eval "$(curl -s https://raw.githubusercontent.com/balupton/awesome-travis/master/scripts/node-publish.bash)"
+- eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/1ec050bc004d0e2161cb5286c247850d24aecc02/scripts/node-publish.bash)"
 notifications:
   slack:
-    secure: ZHpWXhS+7jDQs4B9f1Vl0XLmUmy21BXTlK93l1IFswWIx3OMAqiQDBUf9vEdvS0lwoIuPXryjR74ztcXLXqBn0uFIX0DtZixBedIVdvEnyabzMfybtoJUfUmWLGMOIAz1hLuEoTxDwDtHgI50lpsT4OrjvH2ISoJi0vtoUQeANI=
+    secure: WxiK3//oavEoG+hcpVkjg3pohO6ygMuzW2ihr7EgjOoO0Deac4WH3yCbQiVzr/UeBtZJbVqGuNBEPP4JMfe66S0/BurS18Qw2BVaA3ndnpoKVUAmfVrA/scPLf8Td8WsVSTTGV0ov25EcKZk2ezS75disvLWo48QvShSelHdhLA=
   email:
     recipients:
-      secure: YVe8wmuD7lof42cNb23R3ALLKOk/D4xTdkhJ9iVFg4KMdw9ifvSeMIYUv18qSxvx/AaWXlzEcQ6Soit0DnekgyRXCffm1iVItGMZMv8tOIqjb+/icFeP5RKKPpEc3qzs4GWHHgTN3eDYLZubbzfpa53VvgkEbKcRVw26Bx545Qw=
+      secure: c5Fg7ScD1Gm2LtYPdVuwX9GLRpki06uZ/ivemRHaTGDjdf7BI/m2PrHs+SL4Uvsh299Cp+husm43AmGC1vde+IQ3pK8/2APepbV//rpK4DYVUSJJgh62fiJ3DW39tYzRDNF0iVajpOlDrXi5Lb8jgleeKbV0W+Q/SRKOxTPx8cg=
